@@ -1,0 +1,13 @@
+[project]
+name = "java-debug-using-open-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.3",
+    "openai>=2.38.0",
+    "pydantic>=2.13.4",
+    "uvicorn>=0.47.0",
+]

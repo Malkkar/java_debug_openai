@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>AI Java Debugger</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🤖 AI Java Debugger</h1>
+
+    <div class="card">
+
+      <label>Java Code</label>
+
+      <textarea
+        id="code"
+        placeholder="Paste your Java code here..."
+      ></textarea>
+
+      <label>Error Message</label>
+
+      <textarea
+        id="error"
+        placeholder="Paste error message..."
+      ></textarea>
+
+      <button id="debugBtn">
+        Debug Code
+      </button>
+
+      <div class="loading" id="loading">
+        🔍 Analyzing your code...
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <h2>🧠 AI Response</h2>
+
+      <pre id="result"></pre>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
