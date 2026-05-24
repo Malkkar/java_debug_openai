@@ -16,7 +16,7 @@ debugBtn.addEventListener("click", async () => {
 
   try {
 
-    const response = await fetch("http://127.0.0.1:8001/debug", {
+    const response = await fetch("https://ai-java-debugger-backend.onrender.com/debug"), {
 
       method: "POST",
 
