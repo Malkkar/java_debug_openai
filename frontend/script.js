@@ -32,6 +32,7 @@ debugBtn.addEventListener("click", async () => {
     });
 
     const data = await response.json();
+    console.log(data);
 
     // Hide loading
     loading.style.display = "none";
