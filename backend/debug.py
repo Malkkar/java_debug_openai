@@ -41,11 +41,8 @@ def home():
 def debug_java(req: DebugRequest):
 
     try:
-        print("POST HIT")
-        print("CODE:", req.code)
-        print("ERROR:", req.error)
-
-        print("Request received")
+        
+        
 
         prompt = f"""
 Java Code:

@@ -16,7 +16,7 @@ debugBtn.addEventListener("click", async () => {
 
   try {
 
-    const response = await fetch("https://java-debug-openai.onrender.com", {
+    const response = await fetch("https://java-debug-openai.onrender.com/debug", {
 
       method: "POST",
 
